@@ -1,0 +1,856 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>MultiLightShadowMap.fx</Source>
+      <Name>MultiLightShadowMap</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\MultiLightShadowMap.xnb</Output>
+      <Time>2013-12-05T12:24:57.3978965+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SimpleShadowShader.fx</Source>
+      <Name>SimpleShadowShader</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\SimpleShadowShader.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>DebugFont.spritefont</Source>
+      <Name>DebugFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\DebugFont.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Sample.spritefont</Source>
+      <Name>Fonts\Sample</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Fonts\Sample.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Calibri.spritefont</Source>
+      <Name>Fonts\Calibri</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Fonts\Calibri.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Rastmo.spritefont</Source>
+      <Name>Fonts\Rastmo</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Fonts\Rastmo.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Blade.spritefont</Source>
+      <Name>Fonts\Blade</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Fonts\Blade.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\RoboCop.spritefont</Source>
+      <Name>Fonts\RoboCop</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Fonts\RoboCop.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\ferrari.fbx</Source>
+      <Name>Models\ferrari</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\ferrari.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Osirian_Battle_Tank.fbx</Source>
+      <Name>Models\Osirian_Battle_Tank</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Osirian_Battle_Tank.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Obstacles\Tank.fbx</Source>
+      <Name>Models\Obstacles\Tank</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Obstacles\Tank.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Obstacles\Muro.fbx</Source>
+      <Name>Models\Obstacles\Muro</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Obstacles\Muro.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Obstacles\Maso.fbx</Source>
+      <Name>Models\Obstacles\Maso</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Obstacles\Maso.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Carro2.fbx</Source>
+      <Name>Models\Carro2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Carro2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Carro1.fbx</Source>
+      <Name>Models\Carro1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Carro1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\lapida.fbx</Source>
+      <Name>Models\lapida</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\lapida.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene1\piso_hex.fbx</Source>
+      <Name>Models\Scene1\piso_hex</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene1\piso_hex.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Weapons\torreta_1.fbx</Source>
+      <Name>Models\Weapons\torreta_1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Weapons\torreta_1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Weapons\torreta_2.fbx</Source>
+      <Name>Models\Weapons\torreta_2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Weapons\torreta_2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Weapons\torreta_3.fbx</Source>
+      <Name>Models\Weapons\torreta_3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Weapons\torreta_3.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Weapons\torreta_4.fbx</Source>
+      <Name>Models\Weapons\torreta_4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Weapons\torreta_4.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene1\escenario1_edif.fbx</Source>
+      <Name>Models\Scene1\escenario1_edif</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene1\escenario1_edif.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene2\escenario2_obj.fbx</Source>
+      <Name>Models\Scene2\escenario2_obj</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene2\escenario2_obj.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene2\escenario2_piso1.fbx</Source>
+      <Name>Models\Scene2\escenario2_piso1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene2\escenario2_piso1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene2\escenario2_piso2.fbx</Source>
+      <Name>Models\Scene2\escenario2_piso2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene2\escenario2_piso2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene2\escenario2_piso3.fbx</Source>
+      <Name>Models\Scene2\escenario2_piso3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene2\escenario2_piso3.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene2\escenario2_piso4.fbx</Source>
+      <Name>Models\Scene2\escenario2_piso4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene2\escenario2_piso4.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\auto2.fbx</Source>
+      <Name>Models\auto2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\auto2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Obstacles\muro1.fbx</Source>
+      <Name>Models\Obstacles\muro1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Obstacles\muro1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Obstacles\muro2.fbx</Source>
+      <Name>Models\Obstacles\muro2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Obstacles\muro2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Obstacles\muro3.fbx</Source>
+      <Name>Models\Obstacles\muro3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Obstacles\muro3.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene3\escenario3_floor1.fbx</Source>
+      <Name>Models\Scene3\escenario3_floor1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene3\escenario3_floor1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene3\escenario3_floor2.fbx</Source>
+      <Name>Models\Scene3\escenario3_floor2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene3\escenario3_floor2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene3\escenario3_floor3.fbx</Source>
+      <Name>Models\Scene3\escenario3_floor3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene3\escenario3_floor3.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene3\escenario3_floor4.fbx</Source>
+      <Name>Models\Scene3\escenario3_floor4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene3\escenario3_floor4.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene3\escenario3_floor5.fbx</Source>
+      <Name>Models\Scene3\escenario3_floor5</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene3\escenario3_floor5.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene3\escenario3_floor6.fbx</Source>
+      <Name>Models\Scene3\escenario3_floor6</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene3\escenario3_floor6.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene3\escenario3_floor7.fbx</Source>
+      <Name>Models\Scene3\escenario3_floor7</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene3\escenario3_floor7.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene3\escenario3_mov.fbx</Source>
+      <Name>Models\Scene3\escenario3_mov</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene3\escenario3_mov.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Scene3\escenario3_walls.fbx</Source>
+      <Name>Models\Scene3\escenario3_walls</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Models\Scene3\escenario3_walls.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CarMenu1.png</Source>
+      <Name>Sprites\CarMenu1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\CarMenu1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\TituloGame.png</Source>
+      <Name>Sprites\TituloGame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\TituloGame.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CarMenu3.png</Source>
+      <Name>Sprites\CarMenu3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\CarMenu3.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CarMenu4.png</Source>
+      <Name>Sprites\CarMenu4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\CarMenu4.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CarMenu5.png</Source>
+      <Name>Sprites\CarMenu5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\CarMenu5.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CarMenu6.png</Source>
+      <Name>Sprites\CarMenu6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\CarMenu6.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CarMenu7.png</Source>
+      <Name>Sprites\CarMenu7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\CarMenu7.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CarMenu8.png</Source>
+      <Name>Sprites\CarMenu8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\CarMenu8.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CarMenu2.png</Source>
+      <Name>Sprites\CarMenu2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\CarMenu2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\AzulIz.png</Source>
+      <Name>Sprites\AzulIz</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\AzulIz.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\AzulCe.png</Source>
+      <Name>Sprites\AzulCe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\AzulCe.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\AzulDe.png</Source>
+      <Name>Sprites\AzulDe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\AzulDe.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\luna.png</Source>
+      <Name>Sprites\Menus\luna</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\luna.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Timetrial.png</Source>
+      <Name>Sprites\Menus\Timetrial</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Timetrial.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Tournament.png</Source>
+      <Name>Sprites\Menus\Tournament</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Tournament.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Deathmatch.png</Source>
+      <Name>Sprites\Menus\Deathmatch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Deathmatch.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\multiplayer.png</Source>
+      <Name>Sprites\Menus\multiplayer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\multiplayer.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\credits.png</Source>
+      <Name>Sprites\Menus\credits</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\credits.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Endgame.png</Source>
+      <Name>Sprites\Menus\Endgame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Endgame.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Resumegame.png</Source>
+      <Name>Sprites\Menus\Resumegame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Resumegame.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Metal.png</Source>
+      <Name>Sprites\Menus\Metal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Metal.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Level1.png</Source>
+      <Name>Sprites\Menus\Level1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Level1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Level2.png</Source>
+      <Name>Sprites\Menus\Level2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Level2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Level3.png</Source>
+      <Name>Sprites\Menus\Level3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Level3.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\DEAD.png</Source>
+      <Name>Sprites\Menus\DEAD</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\DEAD.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\marco.png</Source>
+      <Name>Sprites\Menus\marco</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\marco.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Loading.png</Source>
+      <Name>Sprites\Loading</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Loading.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Arena.png</Source>
+      <Name>Sprites\Menus\Arena</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Arena.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Base.png</Source>
+      <Name>Sprites\Menus\Base</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Base.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Moon_Th.png</Source>
+      <Name>Sprites\Menus\Moon_Th</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Moon_Th.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\mainmenu.png</Source>
+      <Name>Sprites\Menus\mainmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\mainmenu.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\newgame.png</Source>
+      <Name>Sprites\Menus\newgame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\newgame.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\rematch.png</Source>
+      <Name>Sprites\Menus\rematch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\rematch.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\Buildermode.png</Source>
+      <Name>Sprites\Menus\Buildermode</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\Buildermode.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Menus\story.png</Source>
+      <Name>Sprites\Menus\story</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\Menus\story.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\logo.png</Source>
+      <Name>Sprites\logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\logo.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\titulo.png</Source>
+      <Name>Sprites\titulo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sprites\titulo.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Dirt_Sand_02.wav</Source>
+      <Name>Sounds\Dirt_Sand_02</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\Dirt_Sand_02.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\metal_01.wav</Source>
+      <Name>Sounds\metal_01</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\metal_01.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Flyby_02.wav</Source>
+      <Name>Sounds\Flyby_02</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\Flyby_02.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\acelera.wav</Source>
+      <Name>Sounds\acelera</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\acelera.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\carcrash1.wav</Source>
+      <Name>Sounds\carcrash1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\carcrash1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\carcrash2.wav</Source>
+      <Name>Sounds\carcrash2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\carcrash2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\carcrash3.wav</Source>
+      <Name>Sounds\carcrash3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\carcrash3.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\laser1.wav</Source>
+      <Name>Sounds\laser1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\laser1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\laser2.wav</Source>
+      <Name>Sounds\laser2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\laser2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\muerte1.wav</Source>
+      <Name>Sounds\muerte1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\muerte1.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\selectmenu.wav</Source>
+      <Name>Sounds\selectmenu</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\selectmenu.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\muerte2.wav</Source>
+      <Name>Sounds\muerte2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\muerte2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\esc1_1loop.wav</Source>
+      <Name>Sounds\esc1_1loop</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\Sounds\esc1_1loop.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <BuildSuccessful>false</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameARContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameARContent\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Luis Rojas\Documents\Visual Studio 2010\Projects\CarGameAR\CarGameAR\CarGameAR\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-02-12T17:13:48.7551234+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
